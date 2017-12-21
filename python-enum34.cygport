@@ -1,4 +1,4 @@
-inherit python-distutils
+inherit python2-wheel
 
 NAME="python-enum34"
 VERSION=1.1.6
@@ -8,7 +8,3 @@ SUMMARY="Enumerations support for Python 2.7"
 DESCRIPTION="Python 3.4 Enum backported to earlier 2.x and 3.x releases"
 
 ARCH=noarch
-
-PKG_NAMES="python2-enum34"
-python2_enum34_OBSOLETES=${NAME}
-python2_enum34_CONTENTS="*"
