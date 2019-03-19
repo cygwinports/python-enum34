@@ -2,7 +2,7 @@ inherit python2-wheel
 
 NAME="python-enum34"
 VERSION=1.1.6
-RELEASE=1
+RELEASE=2
 CATEGORY="Python"
 SUMMARY="Enumerations support for Python 2.7"
 DESCRIPTION="Python 3.4 Enum backported to earlier 2.x and 3.x releases"
